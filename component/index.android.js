@@ -5,7 +5,7 @@ var {
   DeviceEventEmitter,
 } = require('react-native');
 
-var RNPushNotification = NativeModules.RNPushNotification;
+var RNPushNotification = NativeModules.ReactNativePushNotification;
 var _notifHandlers = new Map();
 
 var DEVICE_NOTIF_EVENT = 'remoteNotificationReceived';
